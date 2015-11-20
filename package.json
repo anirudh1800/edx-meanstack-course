@@ -1,6 +1,12 @@
 {
+    "scripts": {
+		"test": "mocha test.js",
+		"test-kitten": "mocha -R nyan test.js"
+	},
+
     "dependencies":{
         "underscore":"1.5.2",
-        "mongodb": "2.0.35"
+        "mongodb": "2.0.35",
+        "mocha" : "2.2.4"
     }
 }
