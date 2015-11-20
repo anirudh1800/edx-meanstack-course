@@ -8,7 +8,7 @@ var mongodb = require('mongodb');
 
 var uri = 'mongodb://localhost:27017/test';
 mongodb.MongoClient.connect(uri, function (error, db) {
-    if (error) {
+        if (error) {
         console.log(error);
         process.exit(1);
     }
