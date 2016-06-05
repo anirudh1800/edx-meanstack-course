@@ -26,7 +26,6 @@ function setupAuth(User, app) {
 
   passport.use(new FacebookStrategy(
     {
-      // TODO: and use the Config service here
       clientID: clientid,
       clientSecret: clientsecret,
       callbackURL: 'http://localhost:3000/auth/facebook/callback',
